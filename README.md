@@ -28,10 +28,15 @@
 
 * Some important features in determining classification included:
     1. Planetary Radius
+
     ![Planetary_Radius](https://github.com/NelGen/NG-NASA-Exoplanet-Classifier-Project/blob/main/Images/Planetary_radius_feature.PNG)
+    
     2. Distance from Star
+
     ![Distance_from_Star](https://github.com/NelGen/NG-NASA-Exoplanet-Classifier-Project/blob/main/Images/Distance_from_star_feature.PNG)
+    
     3. Count of Planets in the system
+   
     ![Planet_count](https://github.com/NelGen/NG-NASA-Exoplanet-Classifier-Project/blob/main/Images/Planet_count_feature.PNG)
     
 ## Predictions
