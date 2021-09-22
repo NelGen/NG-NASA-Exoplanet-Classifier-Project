@@ -24,7 +24,10 @@
 
 ## Findings
 
-* For this dataset, the best performing model was built using a Random Forest Classifier and achieved 97% accuracy on test data.
+* For this dataset, the best performing model was built using a Random Forest Classifier and achieved 96% accuracy on test data.
+* However, the top 3 models were very close in performance.
+
+    ![Model_results](https://github.com/NelGen/NG-NASA-Exoplanet-Classifier-Project/blob/main/Images/Model_results.PNG)
 
 * Some important features in determining classification included:
     1. Planetary Radius
@@ -38,6 +41,7 @@
     3. Count of Planets in the system
    
     ![Planet_count](https://github.com/NelGen/NG-NASA-Exoplanet-Classifier-Project/blob/main/Images/Planet_count_feature.PNG)
+    
     
 ## Predictions
 
