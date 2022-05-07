@@ -69,7 +69,7 @@ def run_class_model(model, X_train, y_train, X_test, y_test):
     ax0.title.set_text('Train Confusion Matrix');
     ax1.title.set_text('Test Confusion Matrix');
     
-    return model # return the model object!!!
+    return model # return the model object
 
 
 # Linear Models

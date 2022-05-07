@@ -17,14 +17,14 @@
 1. Identify and remove confounding variables.
     i. Database contains features likely to affect both independent and target variable.
     ii. Other features likely to have been engineered from these confounding variables.
-2. Maximize accuracy during model training.
+2. Maximize F1 Score during model training.
     i. As a mock business case, well founded arguments can be made towards minimizing either type I or type II errors.
-       Maximizing accuracy strikes balance between the two metrics.
+       Maximizing F1 Score strikes balance between the two metrics and class imbalances.
     ii. Using robust scaling methods helps reduce the impact from the substantial number of outliers found in the dataset
 
 ## Findings
 
-* For this dataset, the best performing model was built using a Random Forest Classifier and achieved 96% accuracy on test data.
+* For this dataset, the best performing model was built using a Random Forest Classifier and achieved 97% accuracy on test data.
 * However, the top 3 models were very close in performance.
 
     ![Model_results](https://github.com/NelGen/NG-NASA-Exoplanet-Classifier-Project/blob/main/Images/Model_results.PNG)
